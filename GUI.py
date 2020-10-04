@@ -13,13 +13,13 @@ class App(tk.Tk):
 
         # Logo
         global logo
-        logo = PhotoImage(file = "/home/jugjug/Desktop/Python Course/GUI/photos/icon.png")
+        logo = PhotoImage(file = "photos/icon.png")
         logo_label = Label(self,image = logo)
         logo_label.pack()
 
         # Title Bar
         self.title("Website Blocker")
-        title_photo = PhotoImage(file = "/home/jugjug/Desktop/Python/GUI/photos/logo.png")
+        title_photo = PhotoImage(file = "photos/logo.png")
         self.iconphoto(False,title_photo)
 
         # MenuBar Code
